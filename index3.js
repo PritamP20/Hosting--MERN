@@ -17,9 +17,6 @@ async function main() {
   console.log("connected to database");
 }
 
-// console.log(__dirname)
-// console.log(path.resolve())
-
 server.use(cors())
 server.use(express.json());
 server.use(morgan("dev"));
